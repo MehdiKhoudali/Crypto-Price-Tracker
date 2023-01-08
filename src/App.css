@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+.moeda-app {
+  background-color: black;
+  color: rgb(195, 195, 195);
+  padding: 5%;
+  text-align: center;
+  min-height: 100vh;
+}
+.moeda-row {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+.moeda-row {
+  background-color: rgb(42, 42, 42);
+  margin-bottom: 5%;
+  margin-top: 5%;
+  padding: 2%;
+  text-align: center;
+  border-radius: 15px;
+}
+.red {
+  color: red;
+}
+.green {
+  color: green;
+}
+.moeda img {
+  width: 30%;
+}
+.moeda-data p{
+  margin: 2%;
+}
+.moeda-input {
+  padding-left: 10%;
+  padding-right: 10%;
+  outline: none;
+  color: rgb(195, 195, 195);
+  background-color: transparent;
+  border: 1px solid aqua;
+  border-radius: 30px;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  margin: 2%;
+
+}
